@@ -1,0 +1,16 @@
+{
+  "environment": "staging",
+  "staging": {
+    "versionName": "3.6.0.3",
+    "oldVersion": "3.5.0.5",
+    "versionCode": 1,
+    "serverLogin": "https://sapi.fpt.vn/saleplatform-gateway-api-staging/",
+    "server": "https://sapi.fpt.vn/saleplatform-api-staging/",
+    "releaseDate": "2023-06-26",
+    "displayPrint": false,
+    "apiKong": "https://sapi.fpt.vn/token/GenerateToken",
+    "apiUpload": "https://sapi.fpt.vn/systemapitest/api/",
+    "serviceLoginPublic": "https://sapi.fpt.vn/saleplatform-gateway-api-staging/",
+    "servicePublic": "https://sapi.fpt.vn/saleplatform-api-staging/"
+  }
+}

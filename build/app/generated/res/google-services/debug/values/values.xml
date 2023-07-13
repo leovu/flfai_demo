@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1098565378170-cu2k6i730kgaf1h2iiir1ttrv56grp5j.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1098565378170</string>
+    <string name="google_api_key" translatable="false">AIzaSyDQWto1QrRf-9BUmBGK1mH9oN_c5XZfQ9k</string>
+    <string name="google_app_id" translatable="false">1:1098565378170:android:ba209023d6573484181bc3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDQWto1QrRf-9BUmBGK1mH9oN_c5XZfQ9k</string>
+    <string name="google_storage_bucket" translatable="false">fairdemo-23d89.appspot.com</string>
+    <string name="project_id" translatable="false">fairdemo-23d89</string>
+</resources>

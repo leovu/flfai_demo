@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/custom_dialog.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Lily/source-project/flfai_demo/build/url_launcher_android/intermediates/merged_res/debug/layout/notification_action.xml",
+        "source": "/Users/tranly/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_action.xml"
+    }
+]

@@ -1,0 +1,2 @@
+/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/CMakeLists.txt
+/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/src/main/cpp/sdk/CMakeLists.txt

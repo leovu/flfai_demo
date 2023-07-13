@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/CMakeLists.txt",
+    "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/src/main/cpp/sdk/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/tranly/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/.cxx/Debug/93d63c1q/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/tranly/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/.cxx/Debug/93d63c1q/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fairflutter-Debug-armeabi-v7a": {
+      "artifactName": "fairflutter",
+      "buildCommandComponents": [
+        "/Users/tranly/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/.cxx/Debug/93d63c1q/armeabi-v7a",
+        "fairflutter"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/Users/tranly/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/fair-3.2.1/android/src/main/jniLibs/armeabi-v7a/libfairflutter.so",
+      "runtimeFiles": []
+    }
+  }
+}
