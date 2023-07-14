@@ -5,36 +5,14 @@
   },
   "methodMap": {
     "_buildBody": {
-      "className": "Container",
+      "className": "Stack",
       "na": {
-        "decoration": {
-          "className": "BoxDecoration",
-          "na": {
-            "image": {
-              "className": "DecorationImage",
-              "na": {
-                "image": {
-                  "className": "AssetImage",
-                  "pa": [
-                    "#(_background)"
-                  ]
-                },
-                "fit": "#(BoxFit.cover)"
-              }
-            }
+        "fit": "#(StackFit.expand)",
+        "children": [
+          {
+            "className": "CustomBackgroundDayApp"
           }
-        },
-        "child": {
-          "className": "Center",
-          "na": {
-            "child": {
-              "className": "Lottie.asset",
-              "pa": [
-                "assets/json/LottieLogo.json"
-              ]
-            }
-          }
-        }
+        ]
       }
     }
   }

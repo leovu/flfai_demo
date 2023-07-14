@@ -1,0 +1,4 @@
+#Fri Jul 14 17:44:02 ICT 2023
+base.0=/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

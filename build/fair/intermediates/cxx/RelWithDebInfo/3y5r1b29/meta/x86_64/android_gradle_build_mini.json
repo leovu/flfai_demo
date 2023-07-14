@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/CMakeLists.txt",
+    "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/src/main/cpp/sdk/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fairflutter-RelWithDebInfo-x86_64": {
+      "artifactName": "fairflutter",
+      "buildCommandComponents": [
+        "/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/x86_64",
+        "fairflutter"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/src/main/jniLibs/x86_64/libfairflutter.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+framework module fair {
+  umbrella header "fair-umbrella.h"
+
+  export *
+  module * { export * }
+}

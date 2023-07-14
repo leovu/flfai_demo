@@ -1,0 +1,2 @@
+/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/CMakeLists.txt
+/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/src/main/cpp/sdk/CMakeLists.txt

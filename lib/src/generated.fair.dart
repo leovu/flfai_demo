@@ -29,10 +29,20 @@ import 'package:flutter_fair_demo/presentation/widgets/custom_button.dart';
 import 'package:flutter_fair_demo/presentation/widgets/custom_text_field.dart';
 import 'package:flutter_fair_demo/presentation/widgets/custom_scaffold.dart';
 import 'package:flutter_fair_demo/presentation/widgets/custom_check_box.dart';
+import 'package:flutter_fair_demo/presentation/widgets/custom_progress_indcator.dart';
+import 'package:flutter_fair_demo/presentation/widgets/custom_background_app.dart';
+import 'package:flutter_fair_demo/presentation/modules/splash/src/ui/splash_screen.dart';
+import 'package:flutter_fair_demo/presentation/modules/login/src/ui/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_fair_demo/presentation/widgets/custom_navigator.dart';
 import 'package:flutter_fair_demo/common/theme.dart';
+import 'package:flutter_fair_demo/common/assets.dart';
+import 'dart:convert';
+import 'package:file_saver/file_saver.dart';
+import 'package:fair/fair.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:flutter/material.dart';
 import 'package:fair/fair.dart';
@@ -42,6 +52,12 @@ class AppGeneratedModule extends GeneratedModule {
   @override
   Map<String, dynamic> components() {
     return {
+      'SplashScreen': (props) => SplashScreen(
+            key: props['key'],
+          ),
+      'LoginScreen': (props) => LoginScreen(
+            key: props['key'],
+          ),
       'CustomScaffold': (props) => CustomScaffold(
             key: props['key'],
             title: props['title'],
@@ -51,6 +67,12 @@ class AppGeneratedModule extends GeneratedModule {
             body: props['body'],
             textStyleTitle: props['textStyleTitle'],
             textAlign: props['textAlign'],
+          ),
+      'CustomBackgroundDayApp': (props) => CustomBackgroundDayApp(
+            key: props['key'],
+          ),
+      'CustomBackgroundNightApp': (props) => CustomBackgroundNightApp(
+            key: props['key'],
           ),
       'CustomButton': (props) => CustomButton(
             key: props['key'],
@@ -96,6 +118,9 @@ class AppGeneratedModule extends GeneratedModule {
             border: props['border'],
             prefixChild: props['prefixChild'],
           ),
+      'CustomProgressIndicator': (props) => CustomProgressIndicator(
+            key: props['key'],
+          ),
       'CustomCheckbox': (props) => CustomCheckbox(
             key: props['key'],
             value: props['value'],
@@ -109,9 +134,14 @@ class AppGeneratedModule extends GeneratedModule {
   @override
   Map<String, bool> mapping() {
     return const {
+      'SplashScreen': true,
+      'LoginScreen': true,
       'CustomScaffold': true,
+      'CustomBackgroundDayApp': true,
+      'CustomBackgroundNightApp': true,
       'CustomButton': true,
       'CustomTextField': true,
+      'CustomProgressIndicator': true,
       'CustomCheckbox': true,
     };
   }

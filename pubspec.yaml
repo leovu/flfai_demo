@@ -44,14 +44,13 @@ dependencies:
   http: ^0.13.5
   crypto: ^3.0.1
   shared_preferences: ^2.2.0
-  flutter_file_downloader: ^1.1.2
-  lottie: ^2.4.0
+  file_saver: ^0.2.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 # add build_runner and compiler dependency
-  build_runner: ^2.4.6
+  build_runner: ^2.3.3
   fair_compiler: ^1.7.2
 
   # The "flutter_lints" package below contains a set of recommended lints to

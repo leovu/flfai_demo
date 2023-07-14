@@ -1,0 +1,171 @@
+{
+  "abi": "ARMEABI_V7A",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/armeabi-v7a",
+  "soFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx/RelWithDebInfo/3y5r1b29/obj/armeabi-v7a",
+  "soRepublishFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cmake/release/obj/armeabi-v7a",
+  "abiPlatformVersion": 16,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      "",
+      "-DTENCENT_SHELL\u003d1",
+      "-DNOLOG\u003d1"
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx/RelWithDebInfo/3y5r1b29/obj",
+    "soRepublishFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cmake/release/obj",
+    "cxxBuildFolder": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29",
+    "intermediatesFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx/RelWithDebInfo/3y5r1b29",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx",
+      "intermediatesBaseFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates",
+      "intermediatesFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx",
+      "gradleModulePathName": ":fair",
+      "moduleRootFolder": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android",
+      "moduleBuildFile": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/build.gradle",
+      "makeFile": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android",
+        "sdkFolder": "/Users/longvu/Library/Android/sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "RelWithDebInfo"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/prefab/armeabi-v7a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "3y5r1b293h3u631d114o3f5i61652i4e3e6j11656p411246u5v2c2t6ty8x",
+  "configurationArguments": [
+    "-H/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003d/Users/longvu/Library/Android/sdk/ndk/21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/longvu/Library/Android/sdk/ndk/21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/longvu/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/longvu/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_CXX_FLAGS\u003d -DTENCENT_SHELL\u003d1 -DNOLOG\u003d1",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx/RelWithDebInfo/3y5r1b29/obj/armeabi-v7a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/cxx/RelWithDebInfo/3y5r1b29/obj/armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
+    "-B/Users/longvu/.pub-cache/hosted/pub.dev/fair-3.2.1/android/.cxx/RelWithDebInfo/3y5r1b29/armeabi-v7a",
+    "-GNinja"
+  ]
+}

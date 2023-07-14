@@ -15,7 +15,11 @@ import 'src/generated.fair.dart' as g;
   'package:flutter_fair_demo/presentation/widgets/custom_button.dart',
   'package:flutter_fair_demo/presentation/widgets/custom_text_field.dart',
   'package:flutter_fair_demo/presentation/widgets/custom_scaffold.dart',
-  'package:flutter_fair_demo/presentation/widgets/custom_check_box.dart'
+  'package:flutter_fair_demo/presentation/widgets/custom_check_box.dart',
+  'package:flutter_fair_demo/presentation/widgets/custom_progress_indcator.dart',
+  'package:flutter_fair_demo/presentation/widgets/custom_background_app.dart',
+  'package:flutter_fair_demo/presentation/modules/splash/src/ui/splash_screen.dart',
+  'package:flutter_fair_demo/presentation/modules/login/src/ui/login_screen.dart'
 ])
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -149,7 +153,6 @@ class _MyHomePageState extends State<MyHomePage> {
     String? urlUpdatePath = prefs.getString("splash_screen");
     if (!mounted) return;
     Navigator.of(context).push(CupertinoPageRoute(builder: (_) {
-      // return const LoginScreen();
       return FairWidget(
         name: 'splash',
         path: urlUpdatePath ?? 'assets/fair/lib_presentation_modules_splash_src_ui_splash_screen.fair.bin',

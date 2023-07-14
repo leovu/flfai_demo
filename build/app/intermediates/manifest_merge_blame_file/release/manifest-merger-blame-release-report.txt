@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_fair_demo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:5-67
+13-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <application
+17        android:name="android.app.Application"
+17-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:11:9-42
+18        android:allowBackup="false"
+18-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:13:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="flutter_fair_demo"
+21-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:10:9-42
+22        android:usesCleartextTraffic="true" >
+22-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:14:9-44
+23        <activity
+23-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:17:9-38:20
+24            android:name="com.example.flutter_fair_demo.MainActivity"
+24-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:18:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:22:13-163
+26            android:exported="true"
+26-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:19:13-36
+27            android:hardwareAccelerated="true"
+27-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:23:13-47
+28            android:largeHeap="true"
+28-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:24:13-37
+29            android:launchMode="singleTop"
+29-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:20:13-43
+30            android:theme="@style/LaunchTheme"
+30-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:21:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:25:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:30:13-33:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:31:15-70
+41                android:resource="@style/NormalTheme" />
+41-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:32:15-52
+42
+43            <intent-filter>
+43-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:34:13-37:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:35:17-68
+44-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:36:17-76
+46-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:36:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:41:9-43:33
+54            android:name="flutterEmbedding"
+54-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:42:13-44
+55            android:value="2" />
+55-->/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:43:13-30
+56
+57        <service
+57-->[:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:31:13-37
+61            <meta-data
+61-->[:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+62-->[:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-126
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+65-->[:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:32:13-34:85
+68                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+68-->[com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:33:17-107
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:34:17-82
+70        </service>
+71
+72        <activity
+72-->[:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+73            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+73-->[:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+74            android:exported="false"
+74-->[:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+75            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+75-->[:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+76
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+78            android:name="androidx.window.extensions"
+78-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+80        <uses-library
+80-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+81            android:name="androidx.window.sidecar"
+81-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+83
+84        <provider
+84-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+85            android:name="com.google.firebase.provider.FirebaseInitProvider"
+85-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+86            android:authorities="com.example.flutter_fair_demo.firebaseinitprovider"
+86-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+88            android:exported="false"
+88-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+89            android:initOrder="100" />
+89-->[com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+99    </application>
+100
+101</manifest>

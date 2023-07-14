@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_res/release/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "214",
+                        "endColumns": "100",
+                        "endOffsets": "310"
+                    }
+                },
+                {
+                    "source": "/Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/res/values-lt/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "154",
+                        "endOffsets": "349"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "158",
+                        "endOffsets": "209"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/values-lt/values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "214",
+                        "endColumns": "100",
+                        "endOffsets": "310"
+                    }
+                },
+                {
+                    "source": "/Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/res/values-lt/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "154",
+                        "endOffsets": "349"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "158",
+                        "endOffsets": "209"
+                    }
+                }
+            ]
+        }
+    ]
+}

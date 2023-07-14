@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]

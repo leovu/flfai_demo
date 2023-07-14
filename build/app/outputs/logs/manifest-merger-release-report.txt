@@ -1,0 +1,325 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:9:5-44:19
+MERGED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/longvu/.gradle/caches/transforms-3/e4d6a78a7139980d1fbafb564d999aec/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/longvu/.gradle/caches/transforms-3/e4d6a78a7139980d1fbafb564d999aec/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/longvu/.gradle/caches/transforms-3/a6707e5e92b0948a1a953cb9d2cda430/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/longvu/.gradle/caches/transforms-3/a6707e5e92b0948a1a953cb9d2cda430/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/longvu/.gradle/caches/transforms-3/3a546cf6359b43e16627aa51672f4f13/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/longvu/.gradle/caches/transforms-3/3a546cf6359b43e16627aa51672f4f13/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/longvu/.gradle/caches/transforms-3/6f24cfb1dc91c3ffbb29d1422c16c0f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/longvu/.gradle/caches/transforms-3/6f24cfb1dc91c3ffbb29d1422c16c0f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:10:9-42
+	tools:targetApi
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:16:9-28
+	android:icon
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:13:9-36
+	tools:replace
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:15:9-58
+	android:usesCleartextTraffic
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:14:9-44
+	android:name
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:11:9-42
+manifest
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from [:shared_preferences_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:file_saver] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/file_saver/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fair] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/merged_manifest/release/AndroidManifest.xml:7:1-12:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/7254504dc9de8605207740bb8ec8baa5/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/longvu/.gradle/caches/transforms-3/8e3b457cb10e0df4a3a0d95624450bc5/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/longvu/.gradle/caches/transforms-3/e4d6a78a7139980d1fbafb564d999aec/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/longvu/.gradle/caches/transforms-3/a6707e5e92b0948a1a953cb9d2cda430/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/longvu/.gradle/caches/transforms-3/3a546cf6359b43e16627aa51672f4f13/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/longvu/.gradle/caches/transforms-3/56df28b58e72ce928261347763a6886d/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/longvu/.gradle/caches/transforms-3/d6128e0f49c2389705dbf25f817bd76f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/longvu/.gradle/caches/transforms-3/5f8169257607ead7e21bc840f6e57fb8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/longvu/.gradle/caches/transforms-3/e9f645ca12a9518f1e328a5367706da4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/longvu/.gradle/caches/transforms-3/30cdcde8f042b6357be2dae898371e34/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/longvu/.gradle/caches/transforms-3/bdd501ced0eb9758a9e3e44f507f49da/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/longvu/.gradle/caches/transforms-3/a1a4ac25ff5187191fb3372cd168dd37/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/longvu/.gradle/caches/transforms-3/9549649fa7ae7b42458426659f92758a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/longvu/.gradle/caches/transforms-3/268e23956d3418a306156b3f309bc81d/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/longvu/.gradle/caches/transforms-3/3bef4fe5979038b2655a5d9452f772c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/longvu/.gradle/caches/transforms-3/5b2045332b1580e0fad9c72e20d6a3c3/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/longvu/.gradle/caches/transforms-3/6f24cfb1dc91c3ffbb29d1422c16c0f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/longvu/.gradle/caches/transforms-3/eb5ae6e0fa67ff1921f5638aec7d692a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/longvu/.gradle/caches/transforms-3/c650ce1b8578e1ae22b6c819fcd7047e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+	package
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:45:5-98
+	tools:node
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:45:77-96
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:45:22-76
+uses-sdk
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:file_saver] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/file_saver/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:file_saver] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/file_saver/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fair] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-44
+MERGED from [:fair] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/fair/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/7254504dc9de8605207740bb8ec8baa5/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/7254504dc9de8605207740bb8ec8baa5/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/longvu/.gradle/caches/transforms-3/8e3b457cb10e0df4a3a0d95624450bc5/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/longvu/.gradle/caches/transforms-3/8e3b457cb10e0df4a3a0d95624450bc5/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/longvu/.gradle/caches/transforms-3/e4d6a78a7139980d1fbafb564d999aec/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/longvu/.gradle/caches/transforms-3/e4d6a78a7139980d1fbafb564d999aec/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/longvu/.gradle/caches/transforms-3/a6707e5e92b0948a1a953cb9d2cda430/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/longvu/.gradle/caches/transforms-3/a6707e5e92b0948a1a953cb9d2cda430/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/longvu/.gradle/caches/transforms-3/3a546cf6359b43e16627aa51672f4f13/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/longvu/.gradle/caches/transforms-3/3a546cf6359b43e16627aa51672f4f13/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/longvu/.gradle/caches/transforms-3/56df28b58e72ce928261347763a6886d/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/longvu/.gradle/caches/transforms-3/56df28b58e72ce928261347763a6886d/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/longvu/.gradle/caches/transforms-3/d6128e0f49c2389705dbf25f817bd76f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/longvu/.gradle/caches/transforms-3/d6128e0f49c2389705dbf25f817bd76f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/longvu/.gradle/caches/transforms-3/5f8169257607ead7e21bc840f6e57fb8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/longvu/.gradle/caches/transforms-3/5f8169257607ead7e21bc840f6e57fb8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/longvu/.gradle/caches/transforms-3/e9f645ca12a9518f1e328a5367706da4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/longvu/.gradle/caches/transforms-3/e9f645ca12a9518f1e328a5367706da4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/longvu/.gradle/caches/transforms-3/30cdcde8f042b6357be2dae898371e34/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/longvu/.gradle/caches/transforms-3/30cdcde8f042b6357be2dae898371e34/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/longvu/.gradle/caches/transforms-3/c5b97f5d1f11671d89d1c0432c20c6ef/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/longvu/.gradle/caches/transforms-3/bdd501ced0eb9758a9e3e44f507f49da/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/longvu/.gradle/caches/transforms-3/bdd501ced0eb9758a9e3e44f507f49da/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/longvu/.gradle/caches/transforms-3/a1a4ac25ff5187191fb3372cd168dd37/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/longvu/.gradle/caches/transforms-3/a1a4ac25ff5187191fb3372cd168dd37/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/longvu/.gradle/caches/transforms-3/9549649fa7ae7b42458426659f92758a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/longvu/.gradle/caches/transforms-3/9549649fa7ae7b42458426659f92758a/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/longvu/.gradle/caches/transforms-3/268e23956d3418a306156b3f309bc81d/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/longvu/.gradle/caches/transforms-3/268e23956d3418a306156b3f309bc81d/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/longvu/.gradle/caches/transforms-3/3bef4fe5979038b2655a5d9452f772c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/longvu/.gradle/caches/transforms-3/3bef4fe5979038b2655a5d9452f772c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/longvu/.gradle/caches/transforms-3/5b2045332b1580e0fad9c72e20d6a3c3/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/longvu/.gradle/caches/transforms-3/5b2045332b1580e0fad9c72e20d6a3c3/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/longvu/.gradle/caches/transforms-3/6f24cfb1dc91c3ffbb29d1422c16c0f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/longvu/.gradle/caches/transforms-3/6f24cfb1dc91c3ffbb29d1422c16c0f6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/longvu/.gradle/caches/transforms-3/eb5ae6e0fa67ff1921f5638aec7d692a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/longvu/.gradle/caches/transforms-3/eb5ae6e0fa67ff1921f5638aec7d692a/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/longvu/.gradle/caches/transforms-3/c650ce1b8578e1ae22b6c819fcd7047e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/longvu/.gradle/caches/transforms-3/c650ce1b8578e1ae22b6c819fcd7047e/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml
+activity#com.example.flutter_fair_demo.MainActivity
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:17:9-38:20
+	android:launchMode
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:20:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:23:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:25:13-55
+	android:exported
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:19:13-36
+	android:configChanges
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:22:13-163
+	android:largeHeap
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:24:13-37
+	android:theme
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:21:13-47
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:18:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:30:13-33:17
+	android:resource
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:32:15-52
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:31:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:35:17-68
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:36:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:41:9-43:33
+	android:value
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:43:13-30
+	android:name
+		ADDED from /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/android/app/src/main/AndroidManifest.xml:42:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/longvu/Downloads/Project/Flutter/Lib/flfai_demo/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/longvu/.gradle/caches/transforms-3/dd59f3479f2119c9c55411ac4ae97e9f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.0] /Users/longvu/.gradle/caches/transforms-3/94170aa3614583756be99d128dc00cf8/transformed/jetified-firebase-storage-20.2.0/AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/longvu/.gradle/caches/transforms-3/3b10433925a3d2c2cefc234989be7914/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/longvu/.gradle/caches/transforms-3/dccf953fb790ca3f5438dc471fb30a55/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/longvu/.gradle/caches/transforms-3/a953e557d8f317a20391a5f4585d22ac/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58

@@ -14,6 +14,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "amdjs",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/amdjs-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.13"
+    },
+    {
       "name": "analyzer",
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/analyzer-5.13.0",
       "packageUri": "lib/",
@@ -33,7 +39,13 @@
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/async-2.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "async_extension",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/async_extension-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -57,7 +69,7 @@
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/build_daemon-4.0.0",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/build_daemon-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -69,9 +81,9 @@
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/build_runner-2.4.6",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/build_runner-2.3.3",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.14"
     },
     {
       "name": "build_runner_core",
@@ -93,7 +105,13 @@
     },
     {
       "name": "characters",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/characters-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/charcode-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -144,6 +162,18 @@
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/dart_style-2.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "dom_tools",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/dom_tools-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "enum_to_string",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/enum_to_string-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "fair",
@@ -200,6 +230,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "file_saver",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/file_saver-0.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "firebase_core",
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/firebase_core-2.14.0",
       "packageUri": "lib/",
@@ -251,13 +287,7 @@
       "name": "flutter",
       "rootUri": "file:///Users/longvu/Downloads/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "flutter_file_downloader",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/flutter_file_downloader-1.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_lints",
@@ -269,13 +299,13 @@
       "name": "flutter_test",
       "rootUri": "file:///Users/longvu/Downloads/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/longvu/Downloads/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.17"
     },
     {
       "name": "fluttertoast",
@@ -333,15 +363,21 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/js-0.6.5",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "2.16"
     },
     {
       "name": "json_annotation",
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/json_annotation-4.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "json_object_mapper",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/json_object_mapper-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "lints",
@@ -356,14 +392,14 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "lottie",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/lottie-2.4.0",
+      "name": "markdown",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/markdown-5.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/matcher-0.12.13",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -375,7 +411,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/meta-1.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -393,9 +429,27 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/path-1.8.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/path_provider-2.0.15",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "path_provider_android",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/path_provider_android-2.0.27",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "path_provider_foundation",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "path_provider_linux",
@@ -464,6 +518,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "resource_portable",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/resource_portable-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "shared_preferences",
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/shared_preferences-2.2.0",
       "packageUri": "lib/",
@@ -521,13 +581,13 @@
       "name": "sky_engine",
       "rootUri": "file:///Users/longvu/Downloads/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/source_gen-1.4.0",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/source_gen-1.3.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "source_span",
@@ -560,6 +620,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "swiss_knife",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/swiss_knife-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -567,7 +633,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///Users/longvu/.pub-cache/hosted/pub.dev/test_api-0.4.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -674,7 +740,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-07-14T05:25:48.706576Z",
+  "generated": "2023-07-14T10:40:51.592836Z",
   "generator": "pub",
-  "generatorVersion": "3.0.6"
+  "generatorVersion": "2.19.5"
 }
