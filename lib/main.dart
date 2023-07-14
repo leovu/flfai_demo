@@ -1,16 +1,14 @@
-
-
 import 'dart:convert';
-
 import 'package:fair/fair.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_fair_demo/common/theme.dart';
 import 'package:flutter_fair_demo/plugins/basic_plugin/fair_basic_plugin.dart';
 import 'package:flutter_fair_demo/plugins/basic_plugin/http_interaction_plugin.dart';
-import 'package:flutter_fair_demo/presentation/modules/login/src/ui/login_screen.dart';
+import 'package:flutter_fair_demo/presentation/modules/splash/src/delegate/splash_delegate.dart';
 import 'package:flutter_fair_demo/presentation/widgets/custom_button.dart';
 import 'package:flutter_fair_demo/presentation/modules/login/src/delegate/login_delegate.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'src/generated.fair.dart' as g;
 // import 'dart:io' as io;
 @FairBinding(packages: [
@@ -18,7 +16,6 @@ import 'src/generated.fair.dart' as g;
   'package:flutter_fair_demo/presentation/widgets/custom_text_field.dart',
   'package:flutter_fair_demo/presentation/widgets/custom_scaffold.dart',
   'package:flutter_fair_demo/presentation/widgets/custom_check_box.dart'
-
 ])
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,8 +23,8 @@ void main() async{
     FairApp(
       modules: const {},
       delegate: {
-    //   ///The key name registered by the delegate here must be the same as the name of the Fairwidget page name,
-      'login': (context, _) => LoginDelegate()
+        'splash': (context, _) => SplashDelegate(),
+      'login': (context, _) => LoginDelegate(),
     },
       generated: g.AppGeneratedModule(),
       child: const MyApp(),
@@ -147,12 +144,15 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     });
   }
-  showWidget() {
+  showWidget() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? urlUpdatePath = prefs.getString("splash_screen");
+    if (!mounted) return;
     Navigator.of(context).push(CupertinoPageRoute(builder: (_) {
       // return const LoginScreen();
       return FairWidget(
-        name: 'login',
-        path: 'assets/fair/lib_presentation_modules_login_src_ui_login_screen.fair.bin',
+        name: 'splash',
+        path: urlUpdatePath ?? 'assets/fair/lib_presentation_modules_splash_src_ui_splash_screen.fair.bin',
         data: {
           'fairProps': jsonEncode({}),
         },

@@ -1,0 +1,41 @@
+{
+  "className": "CustomScaffold",
+  "na": {
+    "body": "%(_buildBody)"
+  },
+  "methodMap": {
+    "_buildBody": {
+      "className": "Container",
+      "na": {
+        "decoration": {
+          "className": "BoxDecoration",
+          "na": {
+            "image": {
+              "className": "DecorationImage",
+              "na": {
+                "image": {
+                  "className": "AssetImage",
+                  "pa": [
+                    "#(_background)"
+                  ]
+                },
+                "fit": "#(BoxFit.cover)"
+              }
+            }
+          }
+        },
+        "child": {
+          "className": "Center",
+          "na": {
+            "child": {
+              "className": "Lottie.asset",
+              "pa": [
+                "assets/json/LottieLogo.json"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
